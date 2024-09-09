@@ -193,6 +193,10 @@ C: Explicitly defined by the standard, but with some platform dependence.
 
 Pointers: Architecture-dependent (e.g., 4 bytes on 32-bit, 8 bytes on 64-bit).
 
+Cross-platform fixed width types are provided by the `stdint.h` header:
+
+        int8_t, uint8_t, int16_t, uint16_t, int32_t, uint32_t, int64_t, uint64_t
+
 Go: Designed for cross-platform consistency, but some types can vary.
 
         int, uint: Architecture-dependent; either 32 or 64 bits.
